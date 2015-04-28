@@ -1,0 +1,558 @@
+@charset "UTF-8";
+
+/*===========================================
+LOGIN
+===========================================*/
+#login{
+	background: #3A5163 url('../../assets/img/bg_login.png') center no-repeat;
+	position: relative;
+}
+#login #loginfrm{
+	border: 5px solid #3D7B99;
+	background: url("../../assets/img/white_bg.jpg");
+	padding: 15px 20px 30px 20px;
+	width: 270px;
+	border-radius: 10px;
+		-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+				-ms-border-radius: 10px;
+					-o-border-radius: 10px;
+	position: absolute;
+}
+#login #loginfrm .logo{
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+#login #loginfrm input[type="text"],
+#login #loginfrm input[type="password"]{
+	border: 1px solid #bbb;
+	border-radius: 3px;
+		-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+				-ms-border-radius: 3px;
+					-o-border-radius: 3px;
+	width: 85%;
+	padding: 7px 30px 7px 10px;
+	color: #5C5C5C;
+	margin: 0 0 15px 0;
+	position: relative;
+}
+#login #loginfrm  .username,
+#login #loginfrm .password{
+	position: relative;
+}
+#login #loginfrm  .username i,
+#login #loginfrm .password i{
+	position: absolute;
+	font-size: 20px;
+	top: 8px;
+	right: 10px;
+	color: #bbb;
+}
+#login #loginfrm .button{
+	text-align: right;
+	margin: 10px 0 0 0;
+}
+#login #loginfrm .button input{
+	background: #3A5163;
+	padding: 8px 30px;
+	border: 1px solid #3A5163;
+	color: #D3D3D3;
+	font-weight: sbold;
+	
+	border-radius: 4px;
+		-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+				-ms-border-radius: 4px;
+					-o-border-radius: 4px;
+}
+#login #loginfrm .button input:hover{
+	background: #4C687E;
+	color: #f0f0f0;
+}
+#login .error_msg{
+	padding: 20px 0 0 0;
+	text-align: center;
+	color: #B92D2D;
+	font-size: 17px;
+	display: snone;
+	
+}
+
+/*===========================================
+DASHBOARD
+===========================================*/
+
+#dashboard  .box_wrap{
+	padding: 10px 0 5px 0;
+}
+#dashboard  .box_wrap .title{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+	color: #4c4b4b;
+	border-bottom: 1px solid #4c4b4b;
+}
+#dashboard  .box_wrap .title span{
+	border-left: 4px solid #4c4b4b;
+	display: block;
+	padding: 3px 0 3px 10px;
+}
+#dashboard  .box_wrap .buttons{
+	margin: 30px 0 0 0;
+	display: block;
+}
+#dashboard  .box_wrap .buttons li a{
+	border: 1px solid red;
+	width: 160px;
+	padding: 20px 0;
+	text-align: center;
+	float: left;
+	color: #4c4b4b;
+	font-weight: bold;
+	margin: 0 20px 20px 0;
+	border: 1px solid #7d7d7d;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+				-o-border-radius: 5px;
+					-ms-border-radius: 5px;
+}
+#dashboard  .box_wrap .buttons li a:hover{
+	background: #ECECEC;
+}
+#dashboard  .box_wrap .buttons li a i{
+	font-size: 70px;
+	padding: 5px 0 5px 0;
+}
+#dashboard  .pbtm20{
+	padding-bottom: 20px !important;
+}
+
+
+/*===========================================
+NOTIFICATION
+===========================================*/
+#notification .set_rdius{	
+	border: 1px solid #ACACAC;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+}
+#notification table{
+	width: 100%;
+}
+#notification table .bg_blue td{
+	background: #396380;
+	color: #eff5f9;
+	font-size: 17px ;
+	
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;	
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-top-left-radius: 4px;
+			-moz-border-top-right-radius: 4px;
+			-moz-border-top-left-radius: 4px;
+	
+}
+#notification table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+#notification table .col1{
+	width: 40%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#notification table .col2{
+	width: 30%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#notification table .col3{
+	width: 40%;
+	padding: 8px;
+	border-top: 1px solid #ACACAC;
+}
+#notification table .col3 ul{
+	margin: 0 auto;
+	width: 110px;
+}
+#notification table .col3 ul li{
+	float: left;
+	margin: 0 30px 0 0;
+}
+#notification table .col3 ul li.last{
+	margin: 0 !important;
+}
+
+/*===========================================
+Restaurant
+===========================================*/
+#restaurant .set_rdius{	
+	border: 1px solid #ACACAC;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+}
+#restaurant table{
+	width: 100%;
+}
+#restaurant table .bg_blue td{
+	background: #396380;
+	color: #eff5f9;
+	font-size: 17px ;
+	
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;	
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-top-left-radius: 4px;
+			-moz-border-top-right-radius: 4px;
+			-moz-border-top-left-radius: 4px;	
+}
+#restaurant table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+
+#restaurant table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+#restaurant table .col1{
+	width: 33%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#restaurant table .col2{
+	width: 30%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#restaurant table .col3{
+	width: 21%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#restaurant table .col4{
+	width: 42%;
+	padding: 8px;
+	border-top: 1px solid #ACACAC;
+}
+#restaurant table .col4 ul{
+	margin: 0 auto;
+	width: 130px;
+}
+#restaurant table .col4 ul li{
+	float: left;
+	margin: 0 20px 0 0;
+}
+#restaurant table .col4 ul li.last{
+	margin: 0 !important;
+}
+
+
+/*===========================================
+add Restaurant
+===========================================*/
+#restaurant .steps_wrapper{
+	width: 580px;
+	padding: 20px 0 20px 20px;
+	margin: 0 auto;
+}
+#restaurant .steps_wrapper li{
+	float: left;
+}
+#restaurant .steps_wrapper .step_num{	
+	position: relative;
+	z-index: 10;
+}
+#restaurant .steps_wrapper .hr{
+	width: 32%;	
+	position: relative;
+	z-index: -10;
+	margin: 21px -2px 0 -18px;
+}
+#restaurant .steps_wrapper .hr hr{
+	border: 20px;
+	height: 2px;
+    background: #707070;
+}
+#step2,#step3{
+	display: none;
+	border: 1xps solid red;
+}
+/*===========================================
+FOOD AND DRINK
+===========================================*/
+#food .set_rdius{	
+	border: 1px solid #ACACAC;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+}
+#food table{
+	width: 100%;
+}
+#food table .bg_blue td{
+	background: #396380;
+	color: #eff5f9;
+	font-size: 17px ;
+	
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;	
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-top-left-radius: 4px;
+			-moz-border-top-right-radius: 4px;
+			-moz-border-top-left-radius: 4px;	
+}
+#food table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+
+#food table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+#food table .col1{
+	width: 33%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#food table .col2{
+	width: 30%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#food table .col3{
+	width: 15%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#food table .col4{
+	width: 42%;
+	padding: 8px;
+	border-top: 1px solid #ACACAC;
+}
+#food table .col4 ul{
+	margin: 0 auto;
+	width: 100px;
+}
+#food table .col4 ul li{
+	float: left;
+	margin: 0 20px 0 0;
+}
+#food table .col4 ul li.last{
+	margin: 0 !important;
+}
+
+
+/*===========================================
+COUPON
+===========================================*/
+#coupon .set_rdius{	
+	border: 1px solid #ACACAC;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+}
+#coupon table{
+	width: 100%;
+}
+#coupon table .bg_blue td{
+	background: #396380;
+	color: #eff5f9;
+	font-size: 17px ;
+	
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;	
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-top-left-radius: 4px;
+			-moz-border-top-right-radius: 4px;
+			-moz-border-top-left-radius: 4px;	
+}
+#coupon table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+
+#coupon table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+#coupon table .col1{
+	width: 33%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#coupon table .col2{
+	width: 30%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#coupon table .col3{
+	width: 15%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#coupon table .col4{
+	width: 42%;
+	padding: 8px;
+	border-top: 1px solid #ACACAC;
+}
+#coupon table .col4 ul{
+	margin: 0 auto;
+	width: 100px;
+}
+#coupon table .col4 ul li{
+	float: left;
+	margin: 0 20px 0 0;
+}
+#coupon table .col4 ul li.last{
+	margin: 0 !important;
+}
+
+
+
+/*===========================================
+ADVERTISEMENT
+===========================================*/
+#advertisement .set_rdius{	
+	border: 1px solid #ACACAC;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+}
+#advertisement table{
+	width: 100%;
+}
+#advertisement table .bg_blue td{
+	background: #396380;
+	color: #eff5f9;
+	font-size: 17px ;
+	
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;	
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-top-left-radius: 4px;
+			-moz-border-top-right-radius: 4px;
+			-moz-border-top-left-radius: 4px;	
+}
+#advertisement table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+
+#advertisement table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+#advertisement table .col1{
+	width: 63%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+
+#advertisement table .col2{
+	width: 42%;
+	padding: 8px;
+	border-top: 1px solid #ACACAC;
+}
+#advertisement table .col2 ul{
+	margin: 0 auto;
+	width: 100px;
+}
+#advertisement table .col2 ul li{
+	float: left;
+	margin: 0 30px 0 0;
+}
+#advertisement table .col2 ul li.last{
+	margin: 0 !important;
+}
+
+/*===========================================
+ADMINISTRATOR
+===========================================*/
+#administrator .set_rdius{	
+	border: 1px solid #ACACAC;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+}
+#administrator table{
+	width: 100%;
+}
+#administrator table .bg_blue td{
+	background: #396380;
+	color: #eff5f9;
+	font-size: 17px ;
+	
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;	
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-top-left-radius: 4px;
+			-moz-border-top-right-radius: 4px;
+			-moz-border-top-left-radius: 4px;	
+}
+#administrator table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+
+#administrator table .tbl_title{
+	border-left: 1px solid #fff;
+	padding: 10px 0 10px 15px;
+	margin: 0 0 0 25px;
+}
+#administrator table .col1{
+	width: 43%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+}
+#administrator table .col2{
+	width: 20%;
+	padding: 8px;
+	border-right: 1px solid #ACACAC;
+	border-top: 1px solid #ACACAC;
+	text-align: center;
+}
+#administrator table .col3{
+	width: 42%;
+	padding: 8px;
+	border-top: 1px solid #ACACAC;
+}
+#administrator table .col3 ul{
+	margin: 0 auto;
+	width: 100px;
+}
+#administrator table .col3 ul li{
+	float: left;
+	margin: 0 30px 0 0;
+}
+#administrator table .col3 ul li.last{
+	margin: 0 !important;
+}
